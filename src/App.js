@@ -31,6 +31,7 @@ const route = createBrowserRouter([
 
 function App() {
   return <div className="App">
+    <h2>learn react</h2>
     <RouterProvider router={route}></RouterProvider>
   </div>
 

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment } from 'react';
 import Logo from "../../assets/IBM_logo.png"
 import { useNavigate } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ function SideMenu(props) {
     };
 
     return <Fragment>
-        <aside className={`sidebar ${props.open == true ? 'active' : 'slim'}`}>
+        <aside className={`sidebar ${props.open === true ? 'active' : 'slim'}`}>
             <div className="sd-header">
                 <img
                     className="img-thumbnail mx-auto d-block mb-2"
